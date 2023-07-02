@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ip_address",
+    "type": "text",
+    "label": {
+      "en": "IP address"
+    },
+    "value": "192.168.4.1",
+    "hint": {
+      "en": "IP address of the device"
+    }
+  },
+  {
+    "id": "port",
+    "type": "number",
+    "label": {
+      "en": "Port"
+    },
+    "value": 6053,
+    "min": 1,
+    "max": 65535,
+    "hint": {
+      "en": "TCP port, default 6053"
+    }
+  },
+  {
+    "id": "firmware_version",
+    "type": "label",
+    "label": {
+      "en": "Firmware version"
+    },
+    "hint": {
+      "en": "The firmware version of the device"
+    },
+    "value": ""
+  }
+]
